@@ -1,0 +1,8 @@
+val = input("Digite um valor: ")
+print(f"É um numero: {val.isnumeric()}")
+print(f"É alfabético: {val.isalpha()}")
+print("É minusculo:", val.islower())
+print("É alfanumérico:", val.isalnum())
+print("Está em maiúsculas:", val.isupper())
+print("Está em minúsculas:", val.islower())
+print("Está capitalizada:", val.istitle())
